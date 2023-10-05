@@ -55,6 +55,5 @@ Após feito isso, clique em "Criar aplicação"
 Não se esqueca de levar sua [Access Token](https://github.com/Kreusberg/readme-hacka/edit/main/README.md#com-criá-lo) como valor da chave Authorization, em Headers.
 ![image](https://github.com/Kreusberg/readme-hacka/assets/107767621/1cbbfdc2-8e84-4a11-afbd-9cdb1d2af7ab)
 
-3. Feita a requisição, podemos apertar "CTRL + F" e procurar por "PIX".
-Caso ele esteja habilitado, teremos sucesso na busca, podendo visualizar suas informações
+3. Feita a requisição, podemos apertar "CTRL + F" e procurar por "PIX". Caso ele esteja habilitado, teremos sucesso na busca, podendo visualizar suas informações
 ![image](https://github.com/Kreusberg/readme-hacka/assets/107767621/f25bf877-f016-4c21-9ff6-7a2f42b8dcca)
