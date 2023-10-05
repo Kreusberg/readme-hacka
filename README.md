@@ -39,9 +39,22 @@ _Sendo compostos por_
 6. Preencha as informações:
 ![image](https://github.com/Kreusberg/readme-hacka/assets/107767621/a49174ce-d344-44f7-8d76-4cb73855d21b)
 ![image](https://github.com/Kreusberg/readme-hacka/assets/107767621/132c513b-ca04-44fd-95cc-d1d17ebbbc08)
-**Não se esqueca de prencher o Captcha**
+**Não se esqueca de prencher o Captcha**  
 Após feito isso, clique em "Criar aplicação"
 
-7. Por fim, clique em "Credenciais de teste" ou "Credenciais de produção". Alí estarão seus Access Tokens de *teste* e *produção*, respectivamente
+8. Por fim, clique em "Credenciais de teste" ou "Credenciais de produção". Alí estarão seus Access Tokens de *teste* e *produção*, respectivamente
 ![image](https://github.com/Kreusberg/readme-hacka/assets/107767621/73a72dc9-e17a-4a97-bbbe-c46da14ead05)
 **Desta forma, você já tem acesso ao seu Access Token (de testes)**
+
+# VERIFICAR DISPONIBILIDADE DE PAGAMENTO PIX
+
+1. Na [documentão do Mercado Livre](https://www.mercadopago.com.br/developers/pt/reference/payment_methods/_payment_methods/get), clique em Copiar
+![image](https://github.com/Kreusberg/readme-hacka/assets/107767621/8138ed68-a765-4637-a489-1fe53e5a708a)
+
+2. Agora, já no [Postman](https://www.postman.com), usando a URL "https://api.mercadopago.com/v1/payments", dispararemos uma requisição do tipo *GET*, para fazermos a verificação.  
+Não se esqueca de levar sua [Access Token](https://github.com/Kreusberg/readme-hacka/edit/main/README.md#com-criá-lo) como valor da chave Authorization, em Headers.
+![image](https://github.com/Kreusberg/readme-hacka/assets/107767621/1cbbfdc2-8e84-4a11-afbd-9cdb1d2af7ab)
+
+3. Feita a requisição, podemos apertar "CTRL + F" e procurar por "PIX".
+Caso ele esteja habilitado, teremos sucesso na busca, podendo visualizar suas informações
+![image](https://github.com/Kreusberg/readme-hacka/assets/107767621/f25bf877-f016-4c21-9ff6-7a2f42b8dcca)
